@@ -55,7 +55,11 @@ nav a {
 
 .logo-img {
     width: 150px;
+    height: 150px; /* Make height and width equal */
     margin-bottom: 20px;
+    border-radius: 50%; /* This makes the frame circular */
+    object-fit: cover; /* Ensures the image fills the circle */
+    border: 3px solid #4A90E2; /* Adds a subtle accent border */
 }
 
 .hero h2 {
